@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  #4070f4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;      
+    
+}
+
+.form-box{
+    background-color: #fff;
+    width: 400px;   
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 6px;
+    padding: 20px 25px;
+}
+
+.form-box a{
+    text-decoration: none;
+}
+
+.form-box p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form-box h1{
+    text-align: center; 
+}
+
+.input-fields input{
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-top: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #0171D3;
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+#last-para{
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #ddd; 
+    line-height: 0.1em;
+    /* margin: 10px 0 20px;  */
+    margin-top: 30px;
+ } 
+
+ #last-para span { 
+    background:#fff;        
+    padding:0 20px; 
+}
+
+#Login_with_fb_btn{
+    padding: 10px;
+    background-color: #4267B2;
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
+    border-radius: 6px;
+    border: none;
+    width: 100%;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#Login_with_google_btn{
+    width: 100%;
+    background-color: #fff;
+    border: none;   
+    border: 1px solid #666;
+    border-radius: 6px;
+    padding: 10px;
+    margin-top: 18px;
+    color: #000;
+    font-size: 15px;
+    cursor: pointer;
+}
